@@ -685,7 +685,7 @@ export default function Navbar({ className }) {
               <div className="nav">
                 <ul className="nav-wrapper flex xl:space-x-10 space-x-5">
                   <li className="relative">
-                    <Link to="/">
+                    <Link to="/home-four">
                       <span className="flex items-center text-sm text-qblack font-600 cursor-pointer ">
                         <span>Homepage</span>
                         <span className="ml-1.5 ">
@@ -700,7 +700,7 @@ export default function Navbar({ className }) {
                           boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)",
                         }}
                       >
-                        <div className="categories-wrapper w-full h-full p-5">
+                        {/* <div className="categories-wrapper w-full h-full p-5">
                           <div>
                             <div className="category-items">
                               <ul className="flex flex-col space-y-2">
@@ -742,7 +742,7 @@ export default function Navbar({ className }) {
                               </ul>
                             </div>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </li>
